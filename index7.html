@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Creative Blog</title>
+  <link rel="stylesheet" href="styles7.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌟 The Creative Blogger</h1>
+    <p>Inspiration, Innovation, and Insights</p>
+  </header>
+
+  <div class="container">
+    <!-- Blog Posts -->
+    <article>
+      <h2>1. The Future of AI in Daily Life</h2>
+      <p class="meta">By Ayesha Kapoor | July 12, 2025</p>
+      <p class="summary">Artificial Intelligence is revolutionizing how we live. From smart assistants to self-driving cars...</p>
+      <p class="full-content" style="display:none;">...AI is becoming deeply integrated into every aspect of society. Its potential is vast — from healthcare diagnostics to personalized education — making our future more efficient and exciting.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>2. Minimalism: A Path to Freedom</h2>
+      <p class="meta">By Ravi Sen | July 11, 2025</p>
+      <p class="summary">Living with less has never felt more fulfilling. Learn how minimalism can clear your mind and space...</p>
+      <p class="full-content" style="display:none;">...By cutting down on clutter, you begin to focus on what truly matters — relationships, health, and purpose. Embrace the joy of less.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>3. 10 Budget Travel Hacks</h2>
+      <p class="meta">By Meena Dey | July 10, 2025</p>
+      <p class="summary">Travel doesn't need to be expensive. Discover 10 practical tips to explore the world on a budget...</p>
+      <p class="full-content" style="display:none;">...From booking at the right time to using local transport, these hacks can save thousands without sacrificing the experience.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>4. Mental Health in the Modern Age</h2>
+      <p class="meta">By Dr. Aarav Mathur | July 8, 2025</p>
+      <p class="summary">With constant connectivity, mental strain has increased. Here's how to cope effectively in 2025...</p>
+      <p class="full-content" style="display:none;">...From meditation apps to therapy and mindful routines, there's a growing awareness and support for mental wellness.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>5. Cooking With Leftovers</h2>
+      <p class="meta">By Chef Priya | July 6, 2025</p>
+      <p class="summary">Leftovers are treasures in disguise. Create amazing meals with simple tricks to avoid waste...</p>
+      <p class="full-content" style="display:none;">...Try turning rice into fried rice, vegetables into soup, and stale bread into croutons. Cooking smart saves money and the planet!</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>6. The Rise of Remote Work Culture</h2>
+      <p class="meta">By Radhika Sharma | July 5, 2025</p>
+      <p class="summary">Post-pandemic, work-from-home has changed the professional world. Let’s explore its pros and cons...</p>
+      <p class="full-content" style="display:none;">...Remote work offers flexibility, but also challenges like burnout and isolation. Companies are adapting through hybrid models.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+
+    <article>
+      <h2>7. The Power of Daily Journaling</h2>
+      <p class="meta">By Tanya Verma | July 3, 2025</p>
+      <p class="summary">Journaling every day helps with mindfulness and productivity. Here's how to start simply...</p>
+      <p class="full-content" style="display:none;">...Just 5 minutes a day can bring clarity, improve focus, and reduce anxiety. Use prompts or free writing to begin.</p>
+      <button class="read-more" onclick="expandContent(this)">Read More</button>
+    </article>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 The Creative Blogger | All Rights Reserved | Follow us on Instagram @creativeblogger</p>
+  </footer>
+
+  <script>
+    function expandContent(button) {
+      const article = button.closest("article");
+      article.querySelector(".full-content").style.display = "block";
+      button.style.display = "none";
+    }
+  </script>
+
+</body>
+</html>
